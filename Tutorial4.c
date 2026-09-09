@@ -8,7 +8,7 @@ struct student
 void create(struct student arr[], int n);
 void display(struct student arr[], int n);
 void search(struct student arr[], int n);
-void create(struct student arr[], int n);
+void create(struct student arr[], int n)
 {
     printf("Enter student details:\n");
     for (int i = 0; i < n; i++)
